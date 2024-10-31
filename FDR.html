@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C.E.M.G Franklin Delano Roosevelt</title>
+    <style>
+        body {
+            font-family: 'Trebuchet MS', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* Header */
+        header {
+            background-image: url("colegio.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 400px;
+            color: white;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            font-size: 3em;
+            margin: 0;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+        }
+
+        h2 {
+            font-size: 1.5em;
+            margin-top: 10px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+        }
+
+        header img {
+            width: 120px;
+            height: auto;
+            margin-top: 15px;
+            border-radius: 50%;
+            border: 4px solid white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Navigation */
+        nav {
+            background-color: #333;
+            padding: 10px;
+        }
+
+        nav a {
+            float: left;
+            display: block;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-size: 1.2em;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #cacaca;
+            color: #333;
+        }
+
+        /* Sections */
+        .container {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .section-title {
+            font-size: 2.5em; /* Aumentar el tamaño para mayor visibilidad */
+            text-align: center;
+            margin-bottom: 20px;
+            color: #2d21d8;
+            padding: 10px 0;
+            background-color: rgba(45, 33, 216, 0.1); /* Fondo ligero para destacar */
+            border-radius: 10px; /* Bordes redondeados */
+        }
+
+        p {
+            line-height: 1.8;
+            margin-bottom: 15px;
+            font-size: 1.1em;
+        }
+
+        /* Alternating paragraph styles */
+        .parrafo1, .parrafo3, .parrafo4 {
+            background-color: #e9ecef;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .parrafo2 {
+            background-color: #dfe4ea;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        /* Courses Section */
+        ul {
+            list-style: none;
+            padding-left: 20px;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+            font-size: 1.1em;
+            padding: 10px;
+            background-color: #f0f0f0;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Blog Images */
+        .parrafo4 img {
+            display: block;
+            margin: 10px auto;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Footer */
+        footer {
+            background-color: #2d21d8;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative; /* Cambiado a relative */
+            width: 100%;
+            font-size: 0.9em;
+            box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        @media (max-width: 768px) {
+            header {
+                height: 300px;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+
+            nav a {
+                font-size: 1em;
+                padding: 10px;
+            }
+
+            .container {
+                padding: 20px 10px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            header {
+                height: 250px;
+            }
+
+            h1 {
+                font-size: 1.5em;
+            }
+
+            h2 {
+                font-size: 1em;
+            }
+
+            .section-title {
+                font-size: 2em; /* Ajuste en móviles */
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>C.E.M.G Franklin Delano Roosevelt</h1>
+        <h2>Educar para Refundar</h2>
+        <img src="logo Instituto Gubernamental Franklin Delano Roosevelt.png" alt="Logo del Instituto">
+    </header>
+
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#cursos">Cursos</a>
+        <a href="#btp-informatica">BTP en Informática</a> <!-- Nuevo enlace -->
+        <a href="#blog">Blog</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <div class="container parrafo1" id="inicio">
+        <h3 class="section-title">Bienvenidos al C.E.M.G Franklin D. Roosevelt</h3>
+        <p>En el C.E.M.G Franklin Delano Roosevelt, estamos comprometidos con la formación integral de nuestros estudiantes...</p>
+    </div>
+
+    <div class="container parrafo2" id="nosotros">
+        <h3 class="section-title">Nosotros</h3>
+        <p>El Instituto Franklin Delano Roosevelt en Puerto Cortés, Honduras, es una importante institución educativa fundada en 1945. Actualmente, alberga a unos 3,500 estudiantes y ofrece tanto educación secundaria general como una variedad de carreras técnicas y comerciales, como secretariado, administración, computación, y hostelería y turismo. Se encuentra ubicado en el barrio Cienaguita, cerca de la carretera que conecta Puerto Cortés con Omoa.</p>
+        <p>El instituto ha experimentado un crecimiento significativo, incluyendo la inauguración de un nuevo edificio que mejora las condiciones para estudiantes y profesores. Este avance ha permitido aumentar la capacidad del instituto, que sigue ampliándose con la meta de ofrecer educación universitaria en el futuro.</p>
+        <p>Además, el Franklin Delano Roosevelt ha sido considerado para convertirse en un instituto polivalente, con el objetivo de formar a jóvenes en carreras técnicas como refrigeración, mecánica y electricidad, para reducir el desempleo y mejorar las oportunidades laborales en la región.</p>
+    </div>
+
+    <div class="container parrafo3" id="cursos">
+        <h3 class="section-title">Nuestros Cursos</h3>
+        <ul>
+            <li>Ciclo Común de 7mo a 9no Grado</li>
+            <li>Bachillerato Técnico Profesional en Informática</li>
+            <li>Bachillerato en Ciencias y Humanidades</li>
+            <li>Bachillerato Técnico Profesional en Hotelería y Turismo</li>
+            <li>Bachillerato Técnico Profesional en Construcciones Metálicas</li>
+            <li>Bachillerato Técnico Profesional en Informática con Orientación en Robótica</li>
+            <li>Bachillerato Técnico Profesional en Administración de Empresa</li>
+            <li>Bachillerato Técnico Profesional en Banca y Finanzas</li>
+            <li>Bachillerato Técnico Profesional en Contaduría y Finanzas</li>
+            <li>Bachillerato Técnico Profesional en Marítimo Portuario</li>
+        </ul>
+    </div>
+
+    
+        
+            <div class="container parrafo4" id="blog">
+                <h3 class="section-title">Blog</h3>        
+            </div>
+        
+            <div class="container parrafo4" id="blog">
+                <h3 class="section-title">Campeonísimo Municipal de Puerto Cortés</h3>
+                <p>¡Ganamos el Primer Lugar!</p>
+                <img src="campeonismojpg.jpg" alt="Campeonismo" width="300">
+            </div>
+        
+            <div class="container parrafo4" id="blog">
+                <h3 class="section-title">Huerto</h3>
+                <p>Huerto del Instituto</p>
+                <img src="huerto.jpg" alt="Huerto" width="300">
+            </div>
+        
+            <div class="container parrafo4" id="blog">
+                <h3 class="section-title">Banda</h3>
+                <p>Banda FDR</p>
+                <img src="banda.jpg" alt="banda FDR" width="300">
+            </div>
+            <div class="container parrafo4" id="blog">
+                <h3 class="section-title">Competencia de Bandas Nacional</h3>
+                <p>¡BANDA FDR Gana Segundo Lugar en COMPETENCIA NACIONAL realizada en Sonaguera Colón, en el circuito FECCAH!</p>
+                <img src="competencias de banda.jpg" alt="Campeonismo" width="300">
+            </div>
+        
+            <footer>
+                <p>&copy; 2024 C.E.M.G Franklin Delano Roosevelt. Todos los derechos reservados.</p>
+            </footer>
+        
+        </body>
+        </html>
+        
+
